@@ -1,0 +1,24 @@
+{
+  "favlors": [
+    {
+      "id": 1,
+      "value": "Mussarela"
+    },
+    {
+      "id": 2,
+      "value": "Calabresa"
+    },
+    {
+      "id": 3,
+      "value": "Baiana"
+    },
+    {
+      "id": 4,
+      "value": "Portuguesa"
+    },
+    {
+      "id": 5,
+      "value": "Frango com catupiry"
+    }
+  ]
+}
