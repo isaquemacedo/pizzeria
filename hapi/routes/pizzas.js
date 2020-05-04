@@ -11,7 +11,7 @@ var _notFound = fs.readFileSync(path.join(__dirname, '../payloads/flavors/notFou
 
 service = {
   pizzas: {
-    description: 'Post de proposta',
+    description: 'Sabores das pizzas',
     handler: function (req, h) {
       const param = req.params.type;
 

@@ -1,0 +1,9 @@
+<div class="categories" *ngIf="categories$ | async as cat" role="list">
+  <mat-card 
+    *ngFor="let categorie of cat.categories" 
+    (click)="selectCategorie(categorie.id)" class="category" role="listitem">
+    <span>
+      {{categorie.value}}
+    </span>
+  </mat-card>
+</div>

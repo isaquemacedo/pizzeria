@@ -8,7 +8,7 @@ var _categories = fs.readFileSync(path.join(__dirname, '../payloads/categories.j
 
 service = {
   cetegories: {
-    description: 'Post de proposta',
+    description: 'Tamanho das pizzas',
     handler: function (req, h) {
       return h.response(_categories).code(200);
     }
